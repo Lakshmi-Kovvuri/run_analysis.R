@@ -19,7 +19,7 @@ List of FILE NAMES, VARIABLE NAMES used in my  assignment
 		            Dimensions  : 561 rows , 2 columns
 			    
 		            Description : features of  Accelerometer and Gyroscope,                            
-			    3-axial raw signals tAcc-XYZ, tGyro-XYZ
+			                  3-axial raw signals tAcc-XYZ, tGyro-XYZ
 			    
      ⦁ "activitiesLabels"
 		            
@@ -126,7 +126,7 @@ List of FILE NAMES, VARIABLE NAMES used in my  assignment
                            Dimensions : 10299 rows , 88 columns
                 
 		           Description: contains the 'mergedData' along with the 'Subject' & 'Activity' columns and 
-                          'MeanSTD' (mean and standard deviation) for each measurement.
+                                        'MeanSTD' (mean and standard deviation) for each measurement.
 
 5. Uses descriptive activity names to name the activities in the data set.
 
