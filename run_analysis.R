@@ -3,6 +3,7 @@ cur_dir<-"./getdata"
 if(!dir.exists("./getdata"))
 dir.create("./getdata")
 setwd(cur_dir)
+getwd()
 
 # Libraries used in this R-program
 
