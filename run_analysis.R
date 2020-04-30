@@ -138,7 +138,7 @@ requiredData<-data.table(requiredData)
 
 # CREATING THE DATA SET WITH AVERAGE FOR EACH ACTIVITY AND SUBJECT 
 
-tidyData<-aggregate(requiredData, by= list(requiredData$Subject, requiredData$Activity), mean)
+tidyData<-aggregate(.~Subject + Activity, requiredData, mean)
 
 # ORDER THE STRUCTURE AND WRITE IT INTO DATA FILE "Tidy.txt" , THAT CONTAINS
 # NEW TIDY DATA.
