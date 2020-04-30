@@ -1,12 +1,14 @@
 GETTING AND CLEANING DATA - Coursera Project  Codebook
 
-List of FILE NAMES, VARIABLE NAMES used in my  assignment
+
+List of FILE NAMES, VARIABLE NAMES used in my  assignment:
+
 
 1. Data downloaded under the folder called "UCI HAR Dataset".
 
-     ⦁ "fileUrl" : web address of UCI HAR Dataset
+      ⦁ "fileUrl" : web address of UCI HAR Dataset
      
-     ⦁ "zipfile" : UCI HAR Dataset.zip
+      ⦁ "zipfile" : UCI HAR Dataset.zip
      
 2. Data structure:
 
@@ -19,7 +21,7 @@ List of FILE NAMES, VARIABLE NAMES used in my  assignment
 		            Dimensions  : 561 rows , 2 columns
 			    
 		            Description : features of  Accelerometer and Gyroscope,                            
-			                  3-axial raw signals tAcc-XYZ, tGyro-XYZ
+			                   3-axial raw signals tAcc-XYZ, tGyro-XYZ
 			    
      ⦁ "activitiesLabels"
 		            
@@ -85,7 +87,7 @@ List of FILE NAMES, VARIABLE NAMES used in my  assignment
                 
 		           Dimensions : 10299 rows, 1 column
                 
-		           Description: contains merged data of subjectTrain and subjectTest 
+		            Description: contains merged data of subjectTrain and subjectTest 
       
       ⦁ "activity"
       
@@ -93,7 +95,7 @@ List of FILE NAMES, VARIABLE NAMES used in my  assignment
                         
 			   Dimensions : 10299 rows, 1 column
                 
-		           Description: contains merged data of activityTrain and activityTest.
+		            Description: contains merged data of activityTrain and activityTest.
      
      ⦁	"features"
      
